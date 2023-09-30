@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: #1f994b;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0% 8%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+
+button {
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: 2%;
+    font-size: 1rem;
+    padding: 0.9%;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    font-size: 1.02rem;
+    background-color: #177d3c;
+    cursor: pointer;
+}

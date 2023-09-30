@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/layout/Header';
+import Login from './components/login/Login';
+import SongContext from './store/song-context';
 
 function App() {
+  const ctx = useContext(SongContext)
+
+  useEffect(() => {
+    if (Cookies.get("access_token") !== undefined) {
+      ctx.setIsLoggedIn();
+    }
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SongProvider>
+      <div className="App">
+        <Header />
+        <Login />
+      </div>
+    </SongProvider>
   );
 }
 
