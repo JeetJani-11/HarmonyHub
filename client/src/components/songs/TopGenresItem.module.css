@@ -1,0 +1,20 @@
+.genres {
+    display: flex;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.fill {
+    background-color: #a2e0b9;
+    width: 50%;
+    transition: all 0.3s ease-out;
+    color: #a2e0b9;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.name {
+    width: 20%;
+    font-weight: 700;
+    text-align: left;
+}

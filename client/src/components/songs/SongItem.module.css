@@ -1,0 +1,37 @@
+.song {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 40%; 
+    margin: 0px auto;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border: 2px solid #1f994b;
+    border-radius: 10px;
+    background-color: #d8efe0;
+}   
+
+.id {
+    width: 3%;
+    font-weight: 700;
+}
+
+.img {
+    width: 45px;
+}
+
+.details {
+    width: 80%;
+}
+
+.name {
+    font-weight: 700;
+}

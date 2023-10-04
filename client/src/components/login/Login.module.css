@@ -1,0 +1,63 @@
+.login {
+    min-height: 90vh;
+    margin: 0px 1rem;
+}
+
+.container {
+    margin: 6% auto;
+    padding: 2%;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 1rem;
+    width: 70%;
+}
+
+.container button {
+    background-color: #1f994b;
+    padding: 1% 5%;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+  
+.login ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    margin: 5px auto;
+    justify-content: center;
+}
+
+.buttons .btn {
+    background-color: #1f994b;
+    width: 15%;
+}
+
+.create {
+    background-color: #1f994b;
+    width: 15%;
+    margin-bottom: 1%;
+}
+
+.logout {
+    margin-right: 0px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.success {
+    color: #1f994b;
+}
+
+.error {
+    color: red;
+}

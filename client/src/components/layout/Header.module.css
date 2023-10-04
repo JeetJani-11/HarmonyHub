@@ -28,3 +28,7 @@ button:hover {
     background-color: #177d3c;
     cursor: pointer;
 }
+
+h2:hover {
+    cursor: pointer;
+}
