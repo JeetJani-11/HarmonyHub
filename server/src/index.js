@@ -16,7 +16,7 @@ const corsOptions ={
    exposedHeaders: ["set-cookie"]
 }
 
-
+console.log(process.env.CLIENT_SECRET)
 const port = process.env.PORT || 3001
 
 app.use(cors(corsOptions))

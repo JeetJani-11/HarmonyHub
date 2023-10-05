@@ -4,7 +4,6 @@ const auth = (req , res , next) => {
         const refresh_token = req.header('Refresh')
         req.refresh_token = refresh_token
         req.access_token = access_token
-        console.log(access_token)
         next()
     }catch(e){
         res.status(401).send({ error :'Please authenticate'})
